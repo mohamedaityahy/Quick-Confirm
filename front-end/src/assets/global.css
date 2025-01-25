@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Outfit;
+    src: url(../assets/static/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(../assets/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Light;
+    src: url(../assets/static/Outfit-Light.ttf);
+}
+
+:root {
+    --color1: #22C55E;
+    --color2: #00FF7F;
+    --color3: #BCFCDC;
+    --bg: #F8FAFC;
+    --txt: #0F172A;
+    --txt-1: #64748B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit-Regular;
+    font-optical-sizing: auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: Outfit;
+}
+
+ul,li {
+    list-style: none;
+}
+#root div:first-child {
+    display: flex;
+}
