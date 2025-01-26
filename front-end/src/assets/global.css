@@ -14,12 +14,12 @@
 }
 
 :root {
-    --color1: #22C55E;
-    --color2: #00FF7F;
-    --color3: #BCFCDC;
-    --bg: #F8FAFC;
-    --txt: #0F172A;
-    --txt-1: #64748B;
+    --color1: #5C53BC;
+    --color1-1: #8B80FF;
+    /* --color2: #00FF7F;
+    --color3: #BCFCDC; */
+    --bg: #171717;
+    --txt: #FFFFFF;
 }
 
 * {
@@ -36,7 +36,4 @@ a {
 
 ul,li {
     list-style: none;
-}
-#root div:first-child {
-    display: flex;
 }
